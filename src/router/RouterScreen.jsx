@@ -5,7 +5,7 @@ import Header from '../components/header/Header';
 import WalletPage from '../components/walletPage/WalletPage';
 import ConnectWallet from '../pages/connect/ConnectWallet';
 import Homepage from '../pages/home/Homepage';
-import RedirectPage from '../pages/redirect/redirect';
+import RedirectPage from '../pages/redirect/RedirectPage';
 
 function RouterScreen() {
   return (
